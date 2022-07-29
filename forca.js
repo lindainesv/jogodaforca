@@ -13,15 +13,16 @@ let botaoSair = document.getElementById("btn-sair");
 let botaoCancelar = document.getElementById("btn-cancelar");
 
 var palavras = [
-  // "ALURA",
-  // "FORCA",
-  // "HTML",
-  // "ORACLE",
- "JAVASCRIPT"
-  // "LOGICA",
-  // "PROGRAMA",
-  // "DESAFIO",
+  "ALURA",
+  "FORCA",
+  "HTML",
+  "ORACLE",
+ 	"JAVASCRIPT",
+  "LOGICA",
+  "PROGRAMA",
+  "DESAFIO",
 ];
+
 var tabuleiro = document.getElementById("forca").getContext("2d");
 var palavraSecreta = "";
 var letras = [];

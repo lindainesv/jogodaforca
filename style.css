@@ -1,19 +1,15 @@
 body {
-  min-width: 1224px;
-  position: relative;
+  min-width: 1220px;
+  position: absolute;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Space Mono';
-  background: #161716; 
-}
-
-.sublinhado {
-  display: flex;
+  font-family: "Space Mono";
+  background: #161716;
 }
 
 .desenharLinhas {
-  border-bottom: solid 4px #4AE309;
+  border-bottom: solid 4px #4ae309;
   width: 30px;
   margin: 10px;
 }
@@ -27,14 +23,14 @@ body {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  padding: 24px;
-  font-family: 'Space Mono';
+  padding: 30px;
+  font-family: "Space Mono";
   position: absolute;
   width: 317px;
   height: 114px;
   left: 0;
   top: 20rem;
-  background: #4AE309;
+  background: #4ae309;
   border-radius: 24px;
   font-style: normal;
   font-weight: 600;
@@ -55,7 +51,7 @@ body {
   height: 67px;
   left: 1.2rem;
   top: 28rem;
-  border: 1px solid #4AE309;
+  border: 1px solid #4ae309;
   box-sizing: border-box;
   border-radius: 24px;
   font-style: normal;
@@ -64,9 +60,9 @@ body {
   line-height: 22px;
   display: flex;
   justify-content: center;
-  color: #4AE309;
-  font-family: 'Space Mono';
-	background: transparent
+  color: #4ae309;
+  font-family: "Space Mono";
+  background: transparent;
 }
 
 .text-input {
@@ -76,20 +72,20 @@ body {
   height: auto;
   left: -5.5rem;
   top: 200px;
-  font-family: 'Space Mono';
+  font-family: "Space Mono";
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
   line-height: 150%;
   justify-content: baseline;
-  color: #4AE309;
+  color: #4ae309;
   background: transparent;
   border: none;
   text-transform: uppercase;
 }
 
 ::placeholder {
-  color: #4AE309;
+  color: #4ae309;
   text-transform: lowercase;
 }
 
@@ -115,7 +111,7 @@ body {
   top: 0%;
   bottom: 0%;
 }
- 
+
 aviso {
   flex-direction: row;
   position: static;
@@ -125,7 +121,7 @@ aviso {
   top: 0px;
   padding-left: 25px;
   font-weight: 600;
-  font-family: 'Space Mono';
+  font-family: "Space Mono";
   font-style: normal;
   font-size: 18px;
   line-height: 100%;
@@ -148,7 +144,7 @@ aviso {
   flex-direction: row;
   align-items: flex-start;
   padding: 0px;
-  font-family: 'Space Mono';
+  font-family: "Space Mono";
   position: absolute;
   width: 680px;
   height: 67px;
@@ -157,18 +153,18 @@ aviso {
 }
 /* .btn-novo-jogo */
 .btn-novo-jogo {
-  FONT-VARIANT: JIS78;
+  font-variant: JIS78;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   padding: 24px;
-  font-family: 'Space Mono';
+  font-family: "Space Mono";
   position: static;
   width: 328px;
   height: 67px;
   left: 0;
   top: 0px;
-  background: #4AE309;
+  background: #4ae309;
   border-radius: 24px;
   flex: none;
   order: 0;
@@ -187,21 +183,21 @@ aviso {
   flex-direction: row;
   align-items: flex-start;
   padding: 24px;
-  font-family: 'Space Mono';
+  font-family: "Space Mono";
   position: static;
   width: 328px;
   height: 67px;
   left: 352px;
   top: 0px;
   background: #161716;
-  border: 1px solid #4AE309;
+  border: 1px solid #4ae309;
   box-sizing: border-box;
   border-radius: 24px;
   flex: none;
   order: 1;
   flex-grow: 0;
   margin: 0px 124px;
-  color: #4AE309;
+  color: #4ae309;
   font-style: normal;
   font-weight: 600;
   font-size: 22px;
@@ -212,11 +208,11 @@ aviso {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  font-family: 'Space Mono';
+  font-family: "Space Mono";
   position: absolute;
   width: 680px;
   height: 67px;
-  left: 28.5rem;
+  left: 20rem;
   top: 760px;
   margin-bottom: 25px;
 }
@@ -225,8 +221,8 @@ aviso {
   flex-direction: column;
   align-items: flex-start;
   position: absolute;
-  left: 35rem;
-  font-family: 'Space Mono';
+  left: 33rem;
+  font-family: "Space Mono";
 }
 .palavra-nova {
   position: absolute;
@@ -234,9 +230,34 @@ aviso {
 }
 
 .canvas {
-  margin-left: 2.5rem;
+  margin-left: -6rem;
   width: 1024px;
   height: 800px;
+}
+
+.rodape {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  text-align: center;
+  font-size: 18px;
+  color: #f8f8f8;
+  height: 10px;
+  bottom: auto;
+  align-items: flex-start;
+  left: 35rem;
+  font-family: "Space Mono";
+  padding-top: 35px;
+  top: 900px;
+}
+
+.rodape a {
+  text-decoration: none;
+  color: #f8f8f8;
+}
+
+.rodape {
+  bottom: 150px;
 }
 
 /* Portrait tablet to landscape and desktop */
@@ -260,7 +281,6 @@ aviso {
     left: 0.7rem;
     font-size: 22px;
     line-height: 20px;
-		
   }
   .btn-iniciar {
     width: 289px;
@@ -324,6 +344,22 @@ aviso {
     height: 67px;
     left: 9rem;
     top: 64rem;
+  }
+
+  .rodape {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    text-align: center;
+    font-size: 18px;
+    color: #f8f8f8;
+    height: 10px;
+    bottom: auto;
+    align-items: flex-start;
+    left: 15rem;
+    font-family: "Space Mono";
+    padding-top: 200px;
+    top: 900px;
   }
 }
 
